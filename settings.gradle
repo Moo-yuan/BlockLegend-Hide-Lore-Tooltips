@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        maven { url "https://mirrors.cloud.tencent.com/nexus/repository/maven-public/" }
+        maven { url "https://maven.fabricmc.net/" }
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'BlockLegend-Hide-Lore-Tooltips'
