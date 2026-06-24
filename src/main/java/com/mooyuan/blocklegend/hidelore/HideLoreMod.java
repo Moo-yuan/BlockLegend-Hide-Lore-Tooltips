@@ -24,7 +24,7 @@ public class HideLoreMod implements ClientModInitializer {
 
     // ========== v1.1 新增：白名单关键词保护（移除"点击"和"切换"）==========
     private static final List<String> PROTECTED_KEYWORDS = Arrays.asList(
-            "购买", "领取", "预览", "评分", "收藏", "升级至", "右键查看", "右键使用", "左键点击"
+            "购买", "领取", "预览", "评分", "收藏", "升级至", "右键查看", "右键使用", "左键点击", "上一类别", "下一类别"
     );
 
     private static final List<String> ARMOR_TRIM_START = Arrays.asList("已有升级", "Upgrade");
