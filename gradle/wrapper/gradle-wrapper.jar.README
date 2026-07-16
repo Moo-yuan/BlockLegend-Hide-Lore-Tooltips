@@ -1,0 +1,16 @@
+# gradle-wrapper.jar
+
+此文件需要从其他 Fabric 项目复制，或从 Gradle 官网下载。
+
+替代方案：
+1. 安装 Gradle 命令行工具，然后运行：
+   gradle wrapper --gradle-version 8.5
+
+2. 或从已有 Fabric 项目复制：
+   - gradlew
+   - gradlew.bat
+   - gradle/wrapper/gradle-wrapper.jar
+   - gradle/wrapper/gradle-wrapper.properties
+
+下载地址：
+https://services.gradle.org/distributions/gradle-8.5-bin.zip

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "blocklegend_hidelore",
+  "version": "2.0",
+  "name": "BlockLegend Hide Lore Tooltips",
+  "description": "在方块传说服务器中自定义隐藏物品的信息显示
+Customizing the information display of hidden items in the BlockLegends Server.",
+  "authors": [
+    "Moyuans"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Moo-yuan/BlockLegend-Hide-Lore-Tooltips",
+    "sources": "https://github.com/Moo-yuan/BlockLegend-Hide-Lore-Tooltips"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/blocklegend_hidelore/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.mooyuan.blocklegend.hidelore.HideLoreMod"
+    ],
+    "modmenu": [
+      "com.mooyuan.blocklegend.hidelore.integration.ModMenuIntegration"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.4",
+    "fabric-api": "*",
+    "cloth-config": ">=13.0.0",
+    "modmenu": ">=9.0.0"
+  },
+  "suggests": {
+    "modmenu": ">=9.0.0"
+  }
+}
