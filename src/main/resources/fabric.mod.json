@@ -8,8 +8,9 @@
     "Moyuans"
   ],
   "contact": {
-    "homepage": "https://github.com/Moo-yuan/BlockLegend-Hide-Lore-Tooltips",
-    "sources": "https://github.com/Moo-yuan/BlockLegend-Hide-Lore-Tooltips"
+    "homepage": "https://github.com/Moo-yuan/BlockLegend-Hide-Lore-Tooltips/tree/V2.0",
+    "sources": "https://github.com/Moo-yuan/BlockLegend-Hide-Lore-Tooltips",
+    "issues": "https://github.com/Moo-yuan/BlockLegend-Hide-Lore-Tooltips/issues"
   },
   "license": "GPL-3.0",
   "icon": "assets/blocklegend_hidelore/icon.png",
